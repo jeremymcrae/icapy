@@ -8,7 +8,7 @@ and for my own convenience to help with finding and accessing ICA data.
 
 ### Install
 ```sh
-pip install icapy
+pip install icacli
 ```
 
 ### Purpose
