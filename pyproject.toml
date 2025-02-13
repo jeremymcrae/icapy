@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 40.6.0", "wheel", "cython"]
+
+[project]
+name = "icapy"
+description = 'Package for ICA CLI'
+version = "1.0.0"
+authors = [
+    {name = "Jeremy McRae", email = "jmcrae@illumina.com"},
+]
+dependencies = [
+    'requests',
+]
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+homepage = 'https://github.com/jeremymcrae/icapy'
+
+[project.scripts]
+ica = "icapy.cli:main"

@@ -1,0 +1,4 @@
+# pybcf code
+include MANIFEST.in
+include pyproject.toml
+include icapy/*.py
