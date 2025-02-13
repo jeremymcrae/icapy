@@ -2,7 +2,7 @@
 requires = ["setuptools >= 40.6.0", "wheel", "cython"]
 
 [project]
-name = "icapy"
+name = "icacli"
 description = 'Package for ICA CLI'
 version = "1.0.0"
 authors = [
