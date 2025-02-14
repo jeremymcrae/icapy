@@ -1,4 +1,4 @@
-name: pybcf
+name: icacli
 
 on: 
   push:
