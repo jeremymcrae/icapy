@@ -33,6 +33,7 @@ jobs:
           name: artifact-source
 
   pypi-publish:
+    needs: [build]
     name: upload release to PyPI
     runs-on: ubuntu-latest
     # upload to PyPI on every tag starting with 'v'
