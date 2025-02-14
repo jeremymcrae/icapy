@@ -1,4 +1,4 @@
-### icapy
+### icacli
 A small python package to add some CLI commands to help working with ICA 
 (illumina connected analytics), see API details here: 
 https://ica.illumina.com/ica/api/swagger/index.htm
