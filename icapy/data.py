@@ -154,7 +154,7 @@ def ls_wrapper(args):
         sys.exit(1)
     
     try:
-        for item in list_files(args.FILE, args.PATTERN):
+        for item in list_files(args.FILE, args.pattern):
             if not args.all and item["name"].startswith('.'):
                 continue
             line = [item["path"]]
