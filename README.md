@@ -14,7 +14,7 @@ pip install icacli
 ### Purpose
 This provides an `ica` command line tool, which should be available immediately
 after installation. You can run `ica --help` to get the full list of subcommands,
-get help for each subcommand with e.g. `ica ls --help`
+and also get help for each subcommand e.g. `ica ls --help`
 
  - `ica ls`: list files/folders on ICA
  - `ica select`: choose which ICA project to use
