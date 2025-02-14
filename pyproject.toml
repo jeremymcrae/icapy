@@ -4,7 +4,7 @@ requires = ["setuptools >= 40.6.0", "wheel", "cython"]
 [project]
 name = "icacli"
 description = 'Package for ICA CLI'
-version = "1.0.1"
+version = "1.0.2"
 readme = "README.md"
 authors = [
     {name = "Jeremy McRae", email = "jmcrae@illumina.com"},
@@ -23,4 +23,4 @@ classifiers = [
 homepage = 'https://github.com/jeremymcrae/icapy'
 
 [project.scripts]
-ica = "icapy.cli:main"
+ica = "icapy.cli:CLI"
