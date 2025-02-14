@@ -4,7 +4,8 @@ requires = ["setuptools >= 40.6.0", "wheel", "cython"]
 [project]
 name = "icacli"
 description = 'Package for ICA CLI'
-version = "1.0.0"
+version = "1.0.1"
+readme = "README.md"
 authors = [
     {name = "Jeremy McRae", email = "jmcrae@illumina.com"},
 ]
